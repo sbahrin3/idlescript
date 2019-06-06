@@ -19,8 +19,6 @@ document.onkeypress = function() {
     secondsCounter = 0;
 };
 
-//window.setInterval(checkIdleTime, 60000);
-
 window.setInterval(checkIdleTime, 1000);
 
 function checkIdleTime() {
